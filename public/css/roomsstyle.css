@@ -1,0 +1,20 @@
+.rowclick {
+    cursor: pointer;
+    background-color: #B1B1B1;
+}
+
+.no-spacing {
+    border-spacing:0;
+}
+
+th {
+    color: #B1B1B1;
+}
+
+td {
+    color: #FFFFFF;
+}
+
+.errorMsg {
+    color: red;
+}
