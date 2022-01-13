@@ -12,7 +12,7 @@
                     <a href="#" id="manageMedientBtn">Mediëntenbeheer <i class="fas fa-external-link-alt icon"></i></a>
                 </div>
             </div>
-            <button id="newRoomBtn" type="button" data-toggle="modal" data-target="#roomModal" class="btn btn_squar btn_blue"><i class="fas fa-plus icon"></i>Nieuw Lokaal</button>
+            <button id="newRoomBtn" type="button" data-toggle="modal" data-target="#createModal" class="btn btn_squar btn_blue"><i class="fas fa-plus icon"></i>Nieuw Lokaal</button>
             <h3>{{ $room->name }}</h3>
 
             <table id="room">
