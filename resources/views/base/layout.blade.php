@@ -42,8 +42,16 @@
                         </a>
                     </li>
                     <li>
-                        <a href=""></a>
+                        <button class="btn btn_squar btn_red" formaction="{{route('logout')}}"
+                        onclick="event.preventDefault();
+                        document.getElementById('logout-form').submit();">
+                            <i class="far fa-clock icon"></i>
+                            Uitklokken
+                        </button>
                     </li>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST">
+                        @csrf
+                    </form>
                 </ul>    
             </nav>
         </div>
